@@ -1,0 +1,20 @@
+
+
+#wargame {
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#matplotlib {
+    text-align: center;
+}
+
+#waruml {
+    padding-bottom: 15px;
+}
+
+#heatmapMPL {
+    padding-bottom: 75px;
+}
