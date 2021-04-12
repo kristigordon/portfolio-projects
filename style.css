@@ -33,5 +33,18 @@
 }
 
 #legend {
+    padding-bottom: 50px;
+}
+
+#rgb {
+    padding-bottom: 20px;
+}
+
+#bottomlinegraphs {
     padding-bottom: 75px;
 }
+
+#dicerollgraph {
+    padding-bottom: 20px;
+}
+
