@@ -1,8 +1,12 @@
 
+#ProjectBanner {
+    text-align: center;
+    background-color: rgb(176, 188, 197);
+}
+
 #DataDrivenPNG {
     text-align: center;
 }
-
 #MicrosoftShareable {
     text-align: center;
 }
@@ -39,7 +43,7 @@
     text-align: center;
     align-items: center;
     /* padding-top: 40px; */
-    padding-bottom: 20px;
+    padding-bottom: 16px;
     background-color: #D0B03B;
 }
 
@@ -79,3 +83,11 @@
     padding-bottom: 20px;
 }
 
+#kaggle {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    font-weight: normal;
+    font-stretch: expanded;
+    color: rgb(0, 0, 0);
+}
