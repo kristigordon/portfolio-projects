@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+#MicrosoftShareable {
+    text-align: center;
+}
+
 #DataDrivenText {
     text-align: center;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,11 +17,38 @@
     color: rgb(0, 0, 0);
 }
 
+#PythonCert {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    font-weight:bolder;
+    font-stretch: expanded;
+    background-color: rgb(176, 188, 197);
+    color: rgb(0, 0, 0);
+}
+
 #wargame {
     text-align: center;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: #D0B03B;
+}
+
+#wargameintroslide {
+    text-align: center;
+    align-items: center;
+    /* padding-top: 40px; */
+    padding-bottom: 20px;
+    background-color: #D0B03B;
+}
+
+#Microspace {
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
 }
 
 #matplotlib {
