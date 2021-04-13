@@ -91,3 +91,103 @@
     font-stretch: expanded;
     /* color: rgb(0, 0, 0); */
 }
+
+
+#resumebutton-formating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #linkbutton-formating {
+    justify-content: center;
+    text-align: center;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .wargame { width:100%;}
+  .warelements {float:left; padding:10px;}
+  
+  
+      /******* Image properties ******/
+      .button {
+          font-family: "Roboto", "Quicksand", sans-serif;
+          letter-spacing: 0.3em;
+          text-transform: uppercase;
+          font-weight: 400;
+        }
+        .button,
+        .social a {
+          transform-origin: center;
+          transition-duration: 100ms;
+        }
+        
+      .button {
+          background-color: #8febad;
+          border-radius: 290486px;
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+          color: #000000;
+          display: inline-block;
+          font-size: 1.8rem;
+          line-height: 1;
+          padding: 1.2em 2em;
+          text-shadow: none;
+          transition-property: box-shadow, transform;
+          user-select: none;
+          vertical-align: top;
+          white-space: nowrap;
+          will-change: box-shadow, transform;
+        }
+        .button:hover {
+          box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+          transform: scale(1.02) translateY(-4px);
+        }
+        
+        .button:active {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+            transform: scale(0.98) translateY(-2px);
+          }
+          .social {
+            display: flex;
+            margin-top: 1.5rem;
+          }
+          .social li {
+            height: 2rem;
+            margin-right: 0.5rem;
+            text-align: center;
+            width: 2rem;
+          }
+          .social a {
+            align-items: center;
+            display: flex;
+            font-size: 1.5rem;
+            height: 2rem;
+            justify-content: center;
+            opacity: 0.5;
+            transition-property: opacity, transform;
+            width: 2rem;
+        
+          }
+          .social a:hover {
+            opacity: 1;
+            transform: scale(1.25);
+          }
+          .social a:active {
+            opacity: 1;
+            transform: scale(1.1);
+          }
+  
+          /* MODAL */
+   .modal {
+      color: #ffffff;
+      font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.4;
+      color: #333;
+      box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.3);
+      display: inline-block;
+      background-color: #e6fff2;
+  }
