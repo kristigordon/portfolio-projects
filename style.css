@@ -39,11 +39,17 @@
     background-color: #D0B03B;
 }
 
+#wargameslides {
+  text-align: center;
+  align-items: center;
+   background-color: #D0B03B;
+}
+
 #wargameintroslide {
     text-align: center;
     align-items: center;
-    /* padding-top: 40px; */
-    padding-bottom: 16px;
+    padding-top: 10px;
+    /* padding-bottom: 16px; */
     background-color: #D0B03B;
 }
 
@@ -59,9 +65,9 @@
     text-align: center;
 }
 
-#waruml {
+/* #waruml {
     padding-bottom: 15px;
-}
+} */
 
 #heatmapMPL {
     padding-bottom: 75px;
@@ -110,6 +116,7 @@
   }
   .wargame { width:100%;}
   .warelements {float:left; padding:10px;}
+
   
   
       /******* Image properties ******/
